@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Aufa pesekk 💙</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="Perunggu - Ini Abadi Video Lirik.mp3" type="audio/mpeg">
+    
+</audio>
+
+<!-- LOGIN -->
+<section id="loginPage" class="page active">
+
+<div class="stars"></div>
+
+<div class="login-card">
+
+<h1>Happy Birthday 🎂</h1>
+
+<input type="text" id="username"
+placeholder="Masukkan Nama">
+
+<input type="date" id="birthdate">
+
+<button id="enterBtn">
+Enter
+</button>
+
+</div>
+
+</section>
+
+<!-- QR PAGE -->
+<section id="qrPage" class="page">
+
+<div class="center-box">
+
+<h1>Scan My Heart ❤️</h1>
+
+<div class="heart-qr">
+❤
+</div>
+
+<p>
+A special Birthday gift for you
+</p>
+
+<button class="nextBtn"
+data-next="envelopePage">
+Continue
+</button>
+
+</div>
+
+</section>
+
+<!-- ENVELOPE -->
+<section id="envelopePage" class="page">
+
+<div class="envelope-container">
+
+<h1>A Birthday Message</h1>
+
+<div id="envelope">
+
+<div class="flap"></div>
+
+<div class="letter-icon">
+✉️
+</div>
+
+</div>
+
+<p>Tap the envelope</p>
+
+</div>
+
+</section>
+
+<!-- GRADUATION CARD -->
+<section id="cardPage" class="page">
+
+<div class="graduation-card">
+
+<img src="IMG-20260522-WA0032.jpg"
+class="cover-photo">
+<h2>
+Happy Birthday 🎂
+</h2>
+
+<h3>
+Mitha Aufa Andini
+</h3>
+
+<p>
+A Special Day For You 💙
+      </p>
+      <p>26-03-2010
+</p>
+
+<button id="surpriseBtn">
+TAP FOR SURPRISE
+</button>
+
+</div>
+
+</section>
+
+<!-- MENU -->
+<section id="menuPage" class="page">
+
+<h1 class="menu-title">
+Choose The Surprise ✨
+</h1>
+
+<div class="menu-grid">
+
+<div class="menu-card"
+data-target="journeyPage">
+📷
+<span>Journey</span>
+</div>
+
+<div class="menu-card"
+data-target="momentPage">
+🕒
+<span>Moment</span>
+</div>
+
+<div class="menu-card"
+data-target="playlistPage">
+🎵
+<span>Playlist</span>
+</div>
+
+<div class="menu-card"
+data-target="giftPage">
+🎁
+<span>Gift</span>
+</div>
+
+</div>
+
+</section>
+
+<!-- JOURNEY -->
+<section id="journeyPage" class="page">
+
+<h1>Journey 🎓</h1>
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h2>Childhood 🌷</h2>
+  <div class="playlist-card">
+  <img src="IMG-20260424-WA0131.jpg">
+<p>Awal perjalanan dimulai.</p>
+</div>
+
+<div class="timeline-item">
+<h2>Teenage ✨</h2>
+<div class="playlist-card">
+  <img src="IMG-20260211-WA0105.jpg">
+<p>Belajar tumbuh dan mengenal dunia.</p>
+</div>
+
+<div class="timeline-item">
+<h2>Today 🎂</h2>
+<div class="playlist-card">
+  <img src="IMG-20260410-WA0120.jpg">
+<p>happy level up day pesekk</p>
+</div>
+
+<div class="timeline-item">
+
+<h2>Future 🌙</h2>
+<p>Mengukir cerita dan perjuangan.</p>
+</div>
+
+</div>
+<button class="backMenu">
+Back
+</button>
+
+</section>
+
+<!-- MOMENT -->
+<section id="momentPage" class="page">
+
+<h1>Beautiful Moments 📸</h1>
+
+<div class="gallery">
+
+<img src="IMG_20251013_144814.jpg">
+<img src="IMG-20251211-WA0010.jpg">
+<img src="IMG-20260211-WA0106.jpg">
+<img src="IMG-20260410-WA0090.jpg">
+<img src="IMG-20260424-WA0131.jpg">
+<img src="IMG-20260206-WA0067.jpg">
+<img src="IMG-20260211-WA0100.jpg">
+<img src="IMG-20260211-WA0107.jpg">
+<img src="IMG-20260227-WA0086.jpg">
+<img src="IMG-20260410-WA0144.jpg">
+<img src="IMG-20260415-WA0010.jpg">
+<img src="IMG-20260420-WA0078.jpg">
+<img src="IMG-20260425-WA0044.jpg">
+<img src="IMG-20260522-WA0035.jpg">
+</div>
+
+<button class="backMenu">
+Back
+</button>
+
+</section>
+
+<!-- PLAYLIST -->
+<section id="playlistPage" class="page">
+
+<h1>Playlist 🎵</h1>
+
+<div class="playlist-card">
+
+<img src="IMG-20260522-WA0045.jpg">
+
+<h2>Ini Abadi</h2>
+
+<p>
+Perunggu
+</p>
+
+<button id="playMusic">
+Play Music
+</button>
+
+</div>
+
+<button class="backMenu">
+Back
+</button>
+
+</section>
+
+<!-- GIFT -->
+<section id="giftPage" class="page">
+
+<div class="gift-container">
+
+<img src="images/cover.jpg"
+class="gift-photo">
+
+<div id="typingText">
+
+Untuk Mitha Aufa Andini...
+
+</div>
+
+</div>
+
+<button class="backMenu">
+Back
+</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
